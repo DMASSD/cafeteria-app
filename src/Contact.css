@@ -1,4 +1,4 @@
-/* Contact.css - estilos simples y responsivos */
+
 .contact-section { padding: 16px; font-family: Arial, sans-serif; color: #222; }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
 .contact-info { background: #fff; padding: 12px; border-radius: 6px; box-shadow: 0 1px 6px rgba(0,0,0,0.08); }

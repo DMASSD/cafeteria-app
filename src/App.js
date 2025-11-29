@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "./Menu";
 import ReservationForm from "./ReservationForm";
 import Contact from "./Contact";
+import AdminMenu from "./AdminMenu";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <ReservationForm />
       <hr />
       <Contact />
+      <hr />
+      <AdminMenu />
     </div>
   );
 }

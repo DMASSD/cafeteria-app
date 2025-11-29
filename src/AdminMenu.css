@@ -1,0 +1,75 @@
+.admin-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+.admin-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.admin-form input {
+  padding: 8px;
+  width: 180px;
+}
+
+.btn-agregar {
+  background-color: #28a745;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-editar {
+  background-color: #ffc107;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-eliminar {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.admin-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 160px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.admin-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.admin-buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
