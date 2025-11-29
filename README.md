@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Cafetería Online ☕🍰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es un proyecto sencillo en **React** que implementa dos funcionalidades principales como parte de un **Sprint 1 en Scrum**:
 
-## Available Scripts
+1. **Menú digital de cafetería** (HU1).  
+2. **Formulario de reservaciones en línea** (HU2).  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Tecnologías usadas
+- React (Create React App)
+- JavaScript (ES6+)
+- HTML5 + CSS3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Funcionalidades
 
-### `npm test`
+### Menú digital (HU1)
+- Muestra una lista de productos (café, postres, etc.).
+- Cada producto incluye nombre, precio e imagen.
+- Diseño responsivo y sencillo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Reservaciones en línea (HU2)
+- Formulario con los campos:
+  - Nombre
+  - Email
+  - Fecha
+  - Hora
+  - Número de personas
+- Validaciones básicas de campos obligatorios.
+- Al enviar, muestra un mensaje de confirmación:  
+  **“¡Reservación exitosa para [Nombre]!”**
+  
+# 📅 Contexto académico
 
-### `npm run build`
+Este proyecto corresponde al Sprint 1 de un ejercicio académico de SCRUM en el curso de Proyecto II, donde se trabajó en:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Product Backlog
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sprint Backlog
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fichas de backlog
 
-### `npm run eject`
+Calendarización
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ejecución en React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para mas información revisar el PDF adjunto titulado "Actividad integradora. Sprint, el corazón de SCRUM".
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
